@@ -1,3 +1,6 @@
 .nav-container {
-  color: red;
+  padding: 20px;
+  color: #ffffff;
+  background-color: green;
+  width: 100%
 }
