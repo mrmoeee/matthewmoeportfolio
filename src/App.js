@@ -1,22 +1,25 @@
 import React, { Component } from 'react';
-import SomeComponent from './SomeComponent.js';
-import SomeNavbar from './SomeNavbar';
+import { HashRouter } from 'react-router-dom';
+import Header from './Components/Header';
+import Main from './Components/Main';
 import './Stylesheets/App.css';
-import './Stylesheets/SomeNavbar.css';
-
+import './Stylesheets/Header.css';
+import './Stylesheets/Home.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="navbar-box">
-        <SomeNavbar />
-        </header>
-
-        <SomeComponent />
-       
-
-      </div>
+      <HashRouter>
+        {/* Navbar */}
+        {/* Main */}
+        <div className="portfolio">
+          TAKE ME OUT
+          <h1>Ugly colors are temporary</h1>
+          <h2>Creating template for positioning</h2>
+          <Header />
+          <Main />
+        </div>
+      </HashRouter>    
     );
   }
 }
