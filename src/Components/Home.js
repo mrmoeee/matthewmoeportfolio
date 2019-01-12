@@ -10,7 +10,7 @@ class Home extends Component {
         <h2>Home page stuff</h2>
         {/* replace this image */}
         <img src={tom} alt={"tom"} />
-      </div>  
+      </div>
     )
   }
 };
