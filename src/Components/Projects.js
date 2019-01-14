@@ -5,7 +5,20 @@ class Projects extends Component{
   render() {
     return (
       <div className='body-box'> 
-        <h2>Projects page stuff</h2>
+        <ul>
+          <li>
+            <div>Project Image</div>
+            <div>Project Description</div>
+          </li>
+          <li>
+            <div>Project 2 Image</div>
+            <div>Project 2 Description</div>
+          </li>
+          <li>
+            <div>Project 3 image</div>
+            <div>Project 3 Description</div>
+          </li>
+        </ul>
       </div>  
     )
   }
