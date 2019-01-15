@@ -22,8 +22,18 @@
   padding: 10px;
 }
 
+.type-draw {
+  width: 100%;
+  height: auto;
+}
+
 .list-col-3-3 {
   width: 33%;
   background-color: brown;
   padding: 10px;
+}
+
+.snakey {
+  width: 100%;
+  height: auto;
 }

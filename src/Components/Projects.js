@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import Cosmic from '../Images/projectmain.png'
+import Cosmic from '../Images/projectmain.png';
+import Typedraw from '../Images/typedraw.gif';
+import Snake from '../Images/snakey.gif';
 import '../Stylesheets/Projects.css';
 class Projects extends Component{
 
@@ -9,7 +11,7 @@ class Projects extends Component{
         <ul className='list-box'>
           <li className='list-col-1-3'>
             <div>TypeDraw</div>
-            <div>Project Image</div>
+            <div> <img className='type-draw' src={Typedraw} alt={"Typedraw"}/> </div>
             <div>Project Description</div>
           </li>
           <li className='list-col-2-3'>
@@ -19,7 +21,7 @@ class Projects extends Component{
           </li>
           <li className='list-col-3-3'>
             <div>Snake</div>
-            <div>Project 3 image</div>
+            <div> <img className='snakey' src={Snake} alt={"Snake"}/> </div>
             <div>Project 3 Description</div>
           </li>
         </ul>
