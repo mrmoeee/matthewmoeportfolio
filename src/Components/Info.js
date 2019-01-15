@@ -5,7 +5,9 @@ class Info extends Component{
   render() {
     return (
       <div className='body-box'> 
-        <h2>Info page stuff</h2>
+        <div>Hobbies</div>
+        <div>Main Man and Technologies I know</div>
+        <div>Hobbies part 2</div>
       </div>  
     )
   }
