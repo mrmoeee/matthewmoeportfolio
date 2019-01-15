@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Cosmic from '../Images/projectmain.png'
 import '../Stylesheets/Projects.css';
 class Projects extends Component{
 
@@ -13,7 +14,7 @@ class Projects extends Component{
           </li>
           <li className='list-col-2-3'>
             <div>Cosmicsnaps</div>
-            <div>Project 2 Image</div>
+            <div> <img className='cosmic' src={Cosmic} alt={"Cosmic"} /> </div>
             <div>Project 2 Description</div>
           </li>
           <li className='list-col-3-3'>

@@ -11,6 +11,11 @@
   padding: 10px;
 }
 
+.cosmic {
+  width: 100%;
+  height: auto;
+}
+
 .list-col-2-3 {
   width: 33%;
   background-color: beige;
