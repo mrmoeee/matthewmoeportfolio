@@ -1,21 +1,22 @@
 import React, { Component } from 'react';
+import '../Stylesheets/About.css';
 
 class Info extends Component{
 
   render() {
     return (
       <div className='body-box'> 
-        <div>
+        <div className='hob-1-3'>
           <div>Hobbies part 1</div>
           <div>Hobbies Description</div>
           <div>Maybe Some pics</div>
         </div>
-        <div>
+        <div className='hob-2-3'>
           <div>Main Man</div>
           <div>Main Man picture</div>
           <div>Main Man description of technologies I know and who I am</div>
         </div>
-        <div>
+        <div className='hob-3-3'>
           <div>Hobbies part 1</div>
           <div>Hobbies Description</div>
           <div>Maybe Some pics</div>

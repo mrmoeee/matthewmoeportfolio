@@ -13,9 +13,6 @@ class App extends Component {
         {/* Navbar */}
         {/* Main */}
         <div className="portfolio">
-          TAKE ME OUT
-          <h1>Ugly colors are temporary</h1>
-          <h2>Creating template for positioning</h2>
           <Header />
           <Main />
         </div>

@@ -1,6 +1,27 @@
 .nav-container {
-  padding: 20px;
-  color: #ffffff;
-  background-color: green;
-  width: 100%
+  position: fixed;
+  padding: 10px;
+  width: 100%;
+  background-color: white;
 }
+
+.list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-container li {
+  padding: 5px;
+  margin: 5px;
+  width: 25%;
+}
+
+.list-container li a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+
+
+
