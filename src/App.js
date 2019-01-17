@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { HashRouter } from 'react-router-dom';
-import Header from './Components/Header';
 import Main from './Components/Main';
 import './Stylesheets/App.css';
 import './Stylesheets/Header.css';
@@ -13,7 +12,6 @@ class App extends Component {
         {/* Navbar */}
         {/* Main */}
         <div className="portfolio">
-          <Header />
           <Main />
         </div>
       </HashRouter>    
