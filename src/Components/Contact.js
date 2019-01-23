@@ -1,14 +1,18 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Contact extends Component{
+import Header from './Header';
 
-  render() {
-    return (
+const Contact = ({ location }) => {
+
+  return (
+    <div className='page'>
+      <Header location={location}/>
       <div className='body-box'> 
         <h2>contact page stuff</h2>
       </div>  
-    )
-  }
+    </div>
+  )
+  
 }
 
 export default Contact;

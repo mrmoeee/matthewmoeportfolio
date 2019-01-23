@@ -1,10 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
+
+import Header from './Header';
 import '../Stylesheets/About.css';
 
-class Info extends Component{
+const Info = ({ location }) => {
 
-  render() {
-    return (
+  return (
+    <div className='page'> 
+      <Header location={location}/>
       <div className='body-box'> 
         <div className='hob-1-3'>
           <div>Hobbies part 1</div>
@@ -21,9 +24,10 @@ class Info extends Component{
           <div>Hobbies Description</div>
           <div>Maybe Some pics</div>
         </div>
-      </div>  
-    )
-  }
+      </div>
+    </div> 
+  )
+  
 }
 
 export default Info;

@@ -11,7 +11,7 @@ class Main extends Component {
   render() {
     return (
       <main>
-        <Header />
+        {/* <Header /> */}
         <Switch>
           <Route exact path='/' component={Home} />
           <Route path='/about' component={About} />

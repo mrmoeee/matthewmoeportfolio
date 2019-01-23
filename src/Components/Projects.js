@@ -1,12 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
+
+import Header from './Header';
 import Cosmic from '../Images/projectmain.png';
 import Typedraw from '../Images/typedraw.gif';
 import Snake from '../Images/snakey.gif';
 import '../Stylesheets/Projects.css';
-class Projects extends Component{
 
-  render() {
-    return (
+const Projects = ({ location }) => {
+
+  return (
+    <div className='page'>
+      <Header location={location}/>
       <div className='body-box'> 
         <ul className='list-box'>
           <li className='list-col-1-3'>
@@ -26,8 +30,9 @@ class Projects extends Component{
           </li>
         </ul>
       </div>  
-    )
-  }
+    </div>  
+  )
 }
+
 
 export default Projects;
