@@ -11,13 +11,13 @@ const Header = ({ location }) => {
   let cName;
 
   if (location.pathname === "/") {
-    cName = "nav-container home";
+    cName = "nav-container-home";
   } else if (location.pathname ==="/about") {
-    cName = "nav-container about";
+    cName = "nav-container-about";
   } else if (location.pathname === "/projects") {
-    cName = "nav-containe project"
+    cName = "nav-container-project"
   } else {
-    cName = "nav-container contact"
+    cName = "nav-container-contact"
   }
   console.log("cname!" + cName);
   return (

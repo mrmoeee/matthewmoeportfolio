@@ -2,6 +2,25 @@
   width: 100%;
 }
 
+.nav-container-home {
+  position: fixed;
+  width: 100%;
+}
+
+.nav-container-about {
+  position: fixed;
+  width: 100%;
+}
+
+.nav-container-project {
+  position: relative;
+  width: 100%;
+}
+
+.nav-container-contact {
+  position: fixed;
+  width: 100%;
+}
 .list-container {
   display: flex;
   justify-content: center;

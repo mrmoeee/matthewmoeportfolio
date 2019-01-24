@@ -1,15 +1,8 @@
-.nav-container {
-  position: relative;
-}
-
 .list-box {
   display: flex;
   flex-direction: row;
   width: 100%;
   /* height: 100%; */
-}
-
-.list-box li {
 }
 
 .list-col-1-3 {
