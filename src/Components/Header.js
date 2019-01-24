@@ -9,18 +9,17 @@ import { Link } from 'react-router-dom';
 const Header = ({ location }) => {
   console.log(location.pathname);
   let cName;
-  switch(location.pathname) {
-    case location.pathname === "/":
-      cName = "nav-container about";
-      console.log(cName + 'ABOUT');
-    break;
-    default:
-      cName = "nav-container home";
-      console.log(cName + '!!!!');
+
+  if (location.pathname === "/") {
+    cName = "nav-container home";
+  } else if (location.pathname ==="/about") {
+    cName = "nav-container about";
+  } else if (location.pathname === "/projects") {
+    cName = "nav-containe project"
+  } else {
+    cName = "nav-container contact"
   }
-  // if (location.pathname === "/") {
-  //   cName = "nav-container home";
-  // } else if (location.pathname ==="")
+  console.log("cname!" + cName);
   return (
     <div className={cName}>
       <ul className="list-container">
